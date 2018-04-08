@@ -1,0 +1,10 @@
+puts "What is your name?"
+my_name = gets.chomp
+puts "What is your surname"
+my_surname = gets.chomp
+puts "How old are you?"
+my_age = gets.chomp
+str = "Your name is" + my_name.capitalize + " , your surname is " + my_surname.capitalize + " , your age is  "+ my_age
+puts str
+puts str.reverse
+puts my_age.to_i + my_name.length
