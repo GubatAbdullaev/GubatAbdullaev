@@ -1,4 +1,4 @@
-irb
+
   puts 5
 h = "5"
 a = gets.chomp 10
