@@ -1,1 +1,5 @@
-puts "Hello"
+def volume(width,height,length)
+  return width*height*length  
+end
+
+puts volume (5,7,1)
